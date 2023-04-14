@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/cxk.gif" />
+  <title>scory</title>
+  <meta name="keywords" content="余阳磊,scory,博客,技术" />
+  <meta name="author" content="余阳磊" />
+  <meta name="copyright" content="scory" />
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <script type="module" crossorigin src="/assets/js/index-ce6d66f0.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/js/@vue-1baf82e9.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/encode-utf8-2ec93547.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/dijkstrajs-b38e4460.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/qrcode-3a4b8256.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@vueuse-d3e9aa68.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vue3-splitpane-9ef15b96.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/date-fns-222c3961.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/evtd-2789e4a1.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/seemly-0c71df87.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@css-render-7ffa2cfa.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vooks-a437919c.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vdirs-68b181a5.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@juggle-80d14552.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@emotion-b17c1a96.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/css-render-bd90028a.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vueuc-04e5b0aa.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/lodash-es-fff5457b.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/treemate-2040dddb.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/async-validator-8d480e59.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/naive-ui-1c491db7.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/pinia-0d4f4653.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/tslib-a4e99503.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/zrender-3ff8857f.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/echarts-9c2009b0.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/axios-9a30b300.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vue-router-3b0e2eb8.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@amap-a03a8b99.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/mockjs-7e8f174a.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/crypto-js-fe439614.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/splitpanes-0469364f.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@kjgl77-f0f1912f.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@vicons-a2c8b0eb.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/has-symbols-456daba2.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/function-bind-72d06d3b.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/has-885c3436.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/get-intrinsic-fee8135b.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/call-bind-af191d86.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/object-inspect-89bb0d45.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/side-channel-a959ba82.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/qs-94839265.js">
+  <link rel="stylesheet" href="/assets/css/vue3-splitpane-15236d92.css">
+  <link rel="stylesheet" href="/assets/css/splitpanes-64f367ac.css">
+  <link rel="stylesheet" href="/assets/css/@kjgl77-ff8bef92.css">
+  <link rel="stylesheet" href="/assets/css/index-192beaff.css">
+  <link rel="stylesheet" href="/assets/css/tailwindcss-953c5ff7.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- <div class="beian" id="Beian">
+    <span style="font-family:arial;">Copyright &copy;scory </span>
+    |
+    <a href="https://beian.miit.gov.cn/" target="_blank" class="a">陕ICP备2023002971号-1</a>
+  </div> -->
+  <script>
+    var wis = window['this'];
+    var message = window['message'];
+    var get = window['get'];
+    var post = window['post'];
+    var $loading = window['$loading'];
+  </script>
+  
+</body>
+
+<style>
+  body {
+    overflow: hidden;
+  }
+
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  div#app:empty:before {
+    content: "Loading...";
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #919191;
+  }
+</style>
+
+<!-- loading -->
+<style>
+  @keyframes pass {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes pass1 {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
+
+<!-- 备案 -->
+<style>
+  .beian {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    background-color: #ffffff36;
+  }
+
+  .a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+</html>
